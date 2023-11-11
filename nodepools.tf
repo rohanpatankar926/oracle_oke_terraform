@@ -33,6 +33,6 @@ resource "oci_containerengine_node_pool" "oke-node-pool" {
     # Optional
     initial_node_labels {
         key = "name"
-        value = "diarization-kmeans"
+        value = "value"
     }    
 }

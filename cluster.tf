@@ -2,7 +2,7 @@ resource "oci_containerengine_cluster" "oke-cluster" {
     # Required
     compartment_id = var.compartment_id
     kubernetes_version = "v1.21.5"
-    name = "diarization-kmeans"
+    name = "cluster_name"
     vcn_id = module.vcn.vcn_id
 
     # Optional
